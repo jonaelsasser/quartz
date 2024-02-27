@@ -17,13 +17,7 @@ export default ((opts?: Options) => {
         <p>
           <a href="https://quartz.jzhao.xyz/">Jona Elsasser</a> © {year}
         </p>
-        <ul>
-          {Object.entries(links).map(([text, link]) => (
-            <li>
-              <a href={link}>{text}</a>
-            </li>
-          ))}
-        </ul>
+
       </footer>
     )
   }
