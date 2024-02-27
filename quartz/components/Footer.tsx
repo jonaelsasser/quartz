@@ -15,9 +15,15 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <p>
-          <a href="https://quartz.jzhao.xyz/">Jona Elsasser</a> © {year}
+          <a href="https://github.com/jonaelsasser">Jona Elsasser</a> © {year}
         </p>
-
+        <ul>
+          {Object.entries(links).map(([text, link]) => (
+            <li>
+              <a href={link}>{text}</a>
+            </li>
+          ))}
+        </ul>
       </footer>
     )
   }
