@@ -1,6 +1,7 @@
 ---
 title: Welcome
-tags: []
+tags: 
+publish: "true"
 ---
 Welcome to my corner of the internet! I'm a software engineer, self-taught and based in Wolfsburg, Germany. My passion for technology has led me down exciting paths, from building smart homes with Raspberry Pi and Home Assistant to crafting efficient Docker networks and configuring reverse proxies. I'm also comfortable developing headless websites and managing robust server setups using both Windows and Ubuntu alongside platforms like [[Proxmox]] and opnsense.
 
