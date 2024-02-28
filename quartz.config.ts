@@ -12,7 +12,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "umami", host: '', websiteId: "6138a502-9fb8-4552-9e01-dcc94f973317"
+      provider: 'google', tagId: 'G-21W2FZYX6V'
     },
     locale: "en-US",
     baseUrl: "elsasser.net",
@@ -51,6 +51,7 @@ const config: QuartzConfig = {
   },
   plugins: {
     transformers: [
+      Plugin.ExplicitPublish(),
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
