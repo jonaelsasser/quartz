@@ -12,7 +12,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "umami", host: 'https://eu.umami.is', websiteId: "6138a502-9fb8-4552-9e01-dcc94f973317"
+      provider: 'google', tagId: 'G-21W2FZYX6V'
     },
     locale: "en-US",
     baseUrl: "elsasser.net",
